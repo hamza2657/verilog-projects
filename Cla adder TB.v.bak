@@ -10,8 +10,8 @@ initial begin
 $monitor ($time, "	A = %b , B = %b , Sum = %b , carry = %b",A,B,SUM,Carry);
 end
 
-initial begin
-A = 4'd0; B = 4'0; c0 = 1'b0;
+/*initial begin
+A = 4'd0; B = 4'd0; c0 = 1'b0;
 #10	A = 4'd3; B = 4'd4;
 #10	A = 4'd2; B = 4'd5;
 #10	A = 4'd9; B = 4'd9;
@@ -19,6 +19,12 @@ A = 4'd0; B = 4'0; c0 = 1'b0;
 #10	A = 4'd10; B = 4'd5; c0 = 1'b1;
 end 
 endmodule
+*/
 
+initial begin
 
-
+A = 4'b1001; B = 4'b1101; c0 = 1'b0;
+#10	A = 4'b1100; B = 4'b1010; c0 = 1'b1;
+#10	A = 4'b1001; B = 4'b0011; c0 = 1'b1;
+end
+endmodule
