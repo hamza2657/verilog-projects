@@ -1,0 +1,6 @@
+module clockGen(output reg clk = 1'b0);
+always 
+#10 clk = ~clk;
+initial 
+#500 $finish;
+endmodule

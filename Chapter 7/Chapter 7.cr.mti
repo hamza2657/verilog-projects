@@ -1,0 +1,8 @@
+{D:/Verilog/verilog-projects/Chapter 7/clock_genertaor .v} {1 {vlog -work {Behavorial modeling} -vopt -stats=none {D:/Verilog/verilog-projects/Chapter 7/clock_genertaor .v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module clockGen
+
+Top level modules:
+	clockGen
+
+} {} {}}
