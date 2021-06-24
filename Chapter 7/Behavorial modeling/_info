@@ -13,23 +13,42 @@ T_opt
 VaS6oR0GjMYV4QC5fcNVB[2
 04 8 4 work clockGen fast 0
 =1-9840bb4c3122-60d2f137-ac-804
-o-quiet -auto_acc_if_foreign -work {Behavorial modeling} +acc
-Z1 tCvgOpt 0
+Z1 o-quiet -auto_acc_if_foreign -work {Behavorial modeling} +acc
+Z2 tCvgOpt 0
 n@_opt
-OL;O;10.5;63
+Z3 OL;O;10.5;63
 R0
+T_opt1
+!s110 1624520726
+VFdm1FzkVFUo;_BNm2P@?;2
+Z4 04 11 4 work NBstatement fast 0
+=1-9840bb4c3122-60d43815-1c5-27a0
+o-quiet -auto_acc_if_foreign -work {Behavorial modeling}
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1624521362
+VnegoAP1]dY0dH=e8BYQEJ2
+R4
+=1-9840bb4c3122-60d43a92-15-d00
+R1
+R2
+n@_opt2
+R3
 vclockGen
 !s110 1624437266
 !i10b 1
 !s100 FI[@zW:3<21e34:;3ST<Z1
 Ih0UC]jB`e;aR^UG`[_h4j2
-VDg1SIo80bB@j0V0VzS_@n1
-dD:/Verilog/verilog-projects/Chapter 7
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/Verilog/verilog-projects/Chapter 7
 w1624437258
 8D:/Verilog/verilog-projects/Chapter 7/clock_genertaor .v
 FD:/Verilog/verilog-projects/Chapter 7/clock_genertaor .v
 L0 1
-OL;L;10.5;63
+Z7 OL;L;10.5;63
 r1
 !s85 0
 31
@@ -38,5 +57,27 @@ r1
 !s90 -reportprogress|300|-work|Behavorial modeling|-vopt|-stats=none|D:/Verilog/verilog-projects/Chapter 7/clock_genertaor .v|
 !i113 0
 o-work {Behavorial modeling} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
+R2
 nclock@gen
+vNBstatement
+!s110 1624521348
+!i10b 1
+!s100 oZodU=HMH[_DfQ>XcOO9L3
+I0j;o<IZL15Kdlj=H_ORRm3
+R5
+R6
+w1624521343
+8D:/Verilog/verilog-projects/Chapter 7/Non_blocking_statement.v
+FD:/Verilog/verilog-projects/Chapter 7/Non_blocking_statement.v
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1624521348.000000
+!s107 D:/Verilog/verilog-projects/Chapter 7/Non_blocking_statement.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Verilog/verilog-projects/Chapter 7/Non_blocking_statement.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@n@bstatement
