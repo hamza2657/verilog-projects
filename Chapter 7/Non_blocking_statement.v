@@ -3,6 +3,10 @@ reg x,y,z;
 reg [15:0] reg_a , reg_b;
 integer count;
 
+//Non blocking statements donot blocks the delays and other things while simulating like blocking do.
+//every statement will operate on its preferd time and with mentioned delay. 
+
+
 initial begin
 x = 0; y = 1; z = 1;
 count = 32'b0;

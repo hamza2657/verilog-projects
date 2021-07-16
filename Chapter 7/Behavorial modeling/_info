@@ -9,96 +9,309 @@ z2
 cModel Technology
 Z0 dC:/modeltech64_10.5/examples
 T_opt
-!s110 1624523521
-V86U1o5B^hJ=ceBN;[EHzk1
-04 7 4 work swaping fast 0
-=1-9840bb4c3122-60d44300-2d1-954
+!s110 1625562378
+VB@09k`Zj;HgaOWjm5ZnB52
+04 6 4 work clocks fast 0
+=1-9840bb4c3122-60e41d0a-1ac-afc
 Z1 o-quiet -auto_acc_if_foreign -work {Behavorial modeling} +acc
 Z2 tCvgOpt 0
 n@_opt
 Z3 OL;O;10.5;63
+R0
 T_opt1
-!s110 1624520726
-VFdm1FzkVFUo;_BNm2P@?;2
-Z4 04 11 4 work NBstatement fast 0
-=1-9840bb4c3122-60d43815-1c5-27a0
-o-quiet -auto_acc_if_foreign -work {Behavorial modeling}
+!s110 1625567726
+VQjX5Q38YcBD6CBeH4WhNl1
+04 6 4 work jktest fast 0
+=1-9840bb4c3122-60e431ee-cb-2fa4
+R1
 R2
 n@_opt1
 R3
 R0
 T_opt2
-!s110 1624521362
-VnegoAP1]dY0dH=e8BYQEJ2
-R4
-=1-9840bb4c3122-60d43a92-15-d00
+!s110 1625570907
+VS?:KI4CC1^5a?]L>FS5bP1
+04 9 4 work testbench fast 0
+=1-9840bb4c3122-60e43e5a-23c-15c
 R1
 R2
 n@_opt2
 R3
-R0
+vA
+!s110 1625044835
+!i10b 1
+!s100 3KS<5???8<cRMCZD[aXVK2
+I^7PORF_IAV9FSkTG6VlF72
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dD:/Verilog/verilog-projects/Chapter 7
+w1625044831
+Z6 8D:/Verilog/verilog-projects/Chapter 7/paper.v
+Z7 FD:/Verilog/verilog-projects/Chapter 7/paper.v
+L0 1
+Z8 OL;L;10.5;63
+r1
+!s85 0
+31
+!s108 1625044835.000000
+Z9 !s107 D:/Verilog/verilog-projects/Chapter 7/paper.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Verilog/verilog-projects/Chapter 7/paper.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a
 vclockGen
-!s110 1624437266
+Z12 !s110 1625042793
 !i10b 1
 !s100 FI[@zW:3<21e34:;3ST<Z1
 Ih0UC]jB`e;aR^UG`[_h4j2
-Z5 VDg1SIo80bB@j0V0VzS_@n1
-Z6 dD:/Verilog/verilog-projects/Chapter 7
+R4
+R5
 w1624437258
 8D:/Verilog/verilog-projects/Chapter 7/clock_genertaor .v
 FD:/Verilog/verilog-projects/Chapter 7/clock_genertaor .v
 L0 1
-Z7 OL;L;10.5;63
+R8
 r1
 !s85 0
 31
-!s108 1624437266.000000
+Z13 !s108 1625042793.000000
 !s107 D:/Verilog/verilog-projects/Chapter 7/clock_genertaor .v|
 !s90 -reportprogress|300|-work|Behavorial modeling|-vopt|-stats=none|D:/Verilog/verilog-projects/Chapter 7/clock_genertaor .v|
 !i113 0
 o-work {Behavorial modeling} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
 nclock@gen
-vNBstatement
-!s110 1624522278
+vclocks
+!s110 1625562367
 !i10b 1
-!s100 oZodU=HMH[_DfQ>XcOO9L3
-I0j;o<IZL15Kdlj=H_ORRm3
+!s100 DRGoT=JWRD`WMZLbZ?;iI2
+I6ZO]JHD9KiE3]?NaZ4lZU3
+R4
 R5
-R6
-w1624521343
-8D:/Verilog/verilog-projects/Chapter 7/Non_blocking_statement.v
-FD:/Verilog/verilog-projects/Chapter 7/Non_blocking_statement.v
+w1625562360
+Z14 8D:/Verilog/verilog-projects/Chapter 7/Test.v
+Z15 FD:/Verilog/verilog-projects/Chapter 7/Test.v
 L0 1
-R7
+R8
 r1
 !s85 0
 31
-!s108 1624522278.000000
+!s108 1625562367.000000
+Z16 !s107 D:/Verilog/verilog-projects/Chapter 7/Test.v|
+Z17 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Verilog/verilog-projects/Chapter 7/Test.v|
+!i113 0
+R11
+R2
+vjkffpos
+!s110 1625567596
+!i10b 1
+!s100 CfT[Wfh0G<jkF[:6XOUzW2
+IKS0C]Mmo?l7>;K0z1oFFF2
+R4
+R5
+w1625567588
+R14
+R15
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1625567596.000000
+R16
+R17
+!i113 0
+R11
+R2
+vjktest
+!s110 1625567720
+!i10b 1
+!s100 acI]JmkTcSL>Z^nAd<cLm3
+Io42`O`lP=;9_jnLOKo_<X2
+R4
+R5
+w1625567713
+Z18 8D:/Verilog/verilog-projects/Chapter 7/jk.v
+Z19 FD:/Verilog/verilog-projects/Chapter 7/jk.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1625567720.000000
+Z20 !s107 D:/Verilog/verilog-projects/Chapter 7/jk.v|
+Z21 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Verilog/verilog-projects/Chapter 7/jk.v|
+!i113 0
+R11
+R2
+vMUX
+Z22 !s110 1625043393
+!i10b 1
+!s100 obH@o]6?:CEoKooaLFKk70
+I6DmT?VjZnC9_>gefQc_6M1
+R4
+R5
+Z23 w1625043386
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+Z24 !s108 1625043393.000000
+R9
+R10
+!i113 0
+R11
+R2
+n@m@u@x
+vNBstatement
+R12
+!i10b 1
+!s100 =znm5ebZlAnUWcXLZWdgz0
+IZgKAX5?]>HOI1F;mQ>@8a0
+R4
+R5
+w1624524110
+8D:/Verilog/verilog-projects/Chapter 7/Non_blocking_statement.v
+FD:/Verilog/verilog-projects/Chapter 7/Non_blocking_statement.v
+L0 1
+R8
+r1
+!s85 0
+31
+R13
 !s107 D:/Verilog/verilog-projects/Chapter 7/Non_blocking_statement.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Verilog/verilog-projects/Chapter 7/Non_blocking_statement.v|
 !i113 0
-Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R11
 R2
 n@n@bstatement
+vseq_detector
+!s110 1625570626
+!i10b 1
+!s100 hI2GW8oE?Enz^a?Ya[k`K1
+I?MRNBJje]N5RzkVoGHE221
+R4
+R5
+w1625570623
+R18
+R19
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1625570626.000000
+R20
+R21
+!i113 0
+R11
+R2
 vswaping
-!s110 1624523161
+R12
 !i10b 1
 !s100 3L4]kLL^[[_@=7;D>c>eE1
 IJ?STVoBHdFfkM4@7AoK`X3
+R4
 R5
-R6
 w1624523156
 8D:/Verilog/verilog-projects/Chapter 7/swaping value.v
 FD:/Verilog/verilog-projects/Chapter 7/swaping value.v
 L0 1
-R7
+R8
 r1
 !s85 0
 31
-!s108 1624523161.000000
+R13
 !s107 D:/Verilog/verilog-projects/Chapter 7/swaping value.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Verilog/verilog-projects/Chapter 7/swaping value.v|
 !i113 0
-R8
+R11
 R2
+vtest
+!s110 1625567652
+!i10b 1
+!s100 0ohT:oSZ^d;TS^fdkWPEe2
+IR:P8d5l^@fmizWN@dFlOz3
+R4
+R5
+w1625567649
+R18
+R19
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1625567652.000000
+R20
+R21
+!i113 0
+R11
+R2
+vtest1
+R22
+!i10b 1
+!s100 ;a[hj@HbQUD[kkAGWIV`_2
+I8_8iRZXAmURKa@o1<:[cB0
+R4
+R5
+R23
+R6
+R7
+L0 7
+R8
+r1
+!s85 0
+31
+R24
+R9
+R10
+!i113 0
+R11
+R2
+vtestbench
+!s110 1625570866
+!i10b 1
+!s100 _5o[RRNW1XmB>Ic>MfKLD2
+I<HcmlT25^d?S>;RkTiD>03
+R4
+R5
+w1625570862
+R14
+R15
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1625570866.000000
+R16
+R17
+!i113 0
+R11
+R2
+vwho_am_I
+R12
+!i10b 1
+!s100 bQ<RL:j_ZhIo5[i><56W30
+I9cG=h`ATD^2Ng95fIi;U<3
+R4
+R5
+w1625042789
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+R13
+R9
+R10
+!i113 0
+R11
+R2
+nwho_am_@i

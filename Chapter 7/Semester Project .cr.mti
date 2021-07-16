@@ -1,0 +1,15 @@
+{D:/Verilog/verilog-projects/Chapter 7/CLA Adder TB.v} {1 {vlog -work {CLA Adder} -vopt -stats=none {D:/Verilog/verilog-projects/Chapter 7/CLA Adder TB.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module Stimulus
+
+Top level modules:
+	Stimulus
+
+} {} {}} {D:/Verilog/verilog-projects/Chapter 7/CLA 32bit .v} {1 {vlog -work {CLA Adder} -vopt -stats=none {D:/Verilog/verilog-projects/Chapter 7/CLA 32bit .v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module CLA_32bit_Adder
+
+Top level modules:
+	CLA_32bit_Adder
+
+} {} {}}

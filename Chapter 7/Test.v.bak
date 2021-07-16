@@ -1,0 +1,18 @@
+module jkffpos(j,k,q,clk,clear);
+input j,k,clk,clear;// inputs
+output reg q=0;
+always@(posedge clk,negedge clear)// active low async. reset and clock sensitivity
+begin
+if(!clear)// active low check
+q<=0;
+else
+begin
+case({j,k})// output selction based on inputs j-k
+0: q<=q;
+1: q<=1;
+2: q<=0;
+3: q<=~q;
+endcase
+end
+end
+endmodule

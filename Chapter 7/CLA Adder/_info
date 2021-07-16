@@ -1,0 +1,150 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Verilog/verilog-projects/Chapter 7
+T_opt
+!s110 1626408310
+Vn9?bZHHSRLE=mH2:b;fC91
+04 8 4 work Stimulus fast 0
+=1-9840bb4c3122-60f10576-11a-2fa0
+o-quiet -auto_acc_if_foreign -work {CLA Adder} +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+R0
+vcarry_look_ahead_16bit
+Z2 !s110 1626406111
+!i10b 1
+!s100 mGg6j]mn?[hi<jINZOYj;3
+I`KzFo;Ti90jHB9G1Y]@2m0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1626406047
+Z5 8D:/Verilog/verilog-projects/Chapter 7/CLA Adder 16bit.v
+Z6 FD:/Verilog/verilog-projects/Chapter 7/CLA Adder 16bit.v
+L0 1
+Z7 OL;L;10.5;63
+r1
+!s85 0
+31
+Z8 !s108 1626406111.000000
+Z9 !s107 D:/Verilog/verilog-projects/Chapter 7/CLA Adder 16bit.v|
+Z10 !s90 -reportprogress|300|-work|CLA Adder|-vopt|-stats=none|D:/Verilog/verilog-projects/Chapter 7/CLA Adder 16bit.v|
+!i113 0
+Z11 o-work {CLA Adder} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vcarry_look_ahead_16bit_tb
+!s110 1626406759
+!i10b 1
+!s100 zF9`6VW`bcGW3eoT^8bb01
+IYIZ8@k<HB2Aoaj8@g]QYH1
+R3
+R0
+w1626406754
+Z12 8D:/Verilog/verilog-projects/Chapter 7/CLA Adder TB.v
+Z13 FD:/Verilog/verilog-projects/Chapter 7/CLA Adder TB.v
+L0 2
+R7
+r1
+!s85 0
+31
+!s108 1626406759.000000
+Z14 !s107 D:/Verilog/verilog-projects/Chapter 7/CLA Adder TB.v|
+Z15 !s90 -reportprogress|300|-work|CLA Adder|-vopt|-stats=none|D:/Verilog/verilog-projects/Chapter 7/CLA Adder TB.v|
+!i113 0
+R11
+R1
+vCLA_16bit_Adder
+Z16 !s110 1626408845
+!i10b 1
+!s100 f>^UH<HTzcnh[nkGg=BNR1
+Ihk_^0JkLEOCf^:_UDW>fI1
+R3
+R0
+w1626406307
+R5
+R6
+L0 6
+R7
+r1
+!s85 0
+31
+Z17 !s108 1626408845.000000
+R9
+R10
+!i113 0
+R11
+R1
+n@c@l@a_16bit_@adder
+vCLA_32bit_Adder
+!s110 1626408846
+!i10b 1
+!s100 XK7a2=>Y36^=S]Mj9;Qk20
+I[R^SIG1e0PP<_Bi[SQT;>1
+R3
+R0
+w1626408761
+8D:/Verilog/verilog-projects/Chapter 7/CLA 32bit .v
+FD:/Verilog/verilog-projects/Chapter 7/CLA 32bit .v
+L0 6
+R7
+r1
+!s85 0
+31
+!s108 1626408846.000000
+!s107 D:/Verilog/verilog-projects/Chapter 7/CLA 32bit .v|
+!s90 -reportprogress|300|-work|CLA Adder|-vopt|-stats=none|D:/Verilog/verilog-projects/Chapter 7/CLA 32bit .v|
+!i113 0
+R11
+R1
+n@c@l@a_32bit_@adder
+vCLA_4bit_Adder
+R2
+!i10b 1
+!s100 LOb=nfSWhJbog0QJY_n;Q1
+IK<EX2O7lQ01BBY7dmK>cC0
+R3
+R0
+R4
+R5
+R6
+L0 19
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+n@c@l@a_4bit_@adder
+vStimulus
+R16
+!i10b 1
+!s100 3>=6]G>nCn_6kWm2n6lgi3
+I`aoh4zaSo:3d=SWhn=FeS2
+R3
+R0
+w1626408840
+R12
+R13
+L0 2
+R7
+r1
+!s85 0
+31
+R17
+R14
+R15
+!i113 0
+R11
+R1
+n@stimulus
